@@ -97,7 +97,7 @@ const Dashboard = () => {
   //Dashboard page component
   return (
     <Fragment>
-      .{/* Constants component - start */}
+      {/* Constants component - start */}
       <NavigationBar userDetails={initialState.userDetails} />
       <SubNavBar pageName="Go to report" />
       {/* Constants component - end */}
