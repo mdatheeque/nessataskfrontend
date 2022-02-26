@@ -53,14 +53,13 @@ function Consultation() {
   useEffect(() => {
     const preload = () => {
       getCallLogs().then((data) => {
-        console.log(data);
         setLogs(data.data);
       });
     };
 
     preload();
     console.log(logs);
-  });
+  }, []);
 
   return (
     <Fragment>
